@@ -21,5 +21,5 @@ public interface TagMapper {
 
     List<Map<String,Object>> selectTags();
 
-    String selectNameByTagId(@Param("tagId") int tagId);
+    String selectNameByTagId(@Param("tagId") int tagId) ;
 }
